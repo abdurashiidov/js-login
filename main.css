@@ -7,14 +7,14 @@ html {
     overflow: hidden;
   }
   
-  img{
+img{
     display: block;
     margin: auto;
     width: 100%;
     height: auto;
-  }
+}
   
-  #login-button{
+#login-button{
     cursor: pointer;
     position: absolute;
     top: 0;
@@ -29,10 +29,10 @@ html {
     background: rgba(3,3,3,.8);
     overflow: hidden;
     opacity: 0.4;
-    box-shadow: 10px 10px 30px #000;}
+    box-shadow: 10px 10px 30px #000;
+}
   
-  /* Login container */
-  #container{
+#container{
     position: absolute;
     top: 0;
     left: 0;
