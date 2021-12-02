@@ -156,23 +156,23 @@ html {
       color: #fff;
   }
   
-  .checkbox:checked:after {
+.checkbox:checked:after {
       content: '\2714';
       font-size: 10px;
       position: absolute;
       top: 0px;
       left: 4px;
       color: #fff;
-  }
+}
   
-  #remember{
+#remember{
     position: absolute;
     font-size: 13px;
     font-family: 'Hind', sans-serif;
     color: rgba(255,255,255,.5);
     top: 7px;
     left: 20px;
-  }
+}
   
 #forgotten{
     position: absolute;
