@@ -82,7 +82,7 @@ html {
   
   /* Inputs */
   a,
-  input{
+input{
     font-family: 'Open Sans Condensed', sans-serif;
     text-decoration: none;
     position: relative;
@@ -99,13 +99,13 @@ html {
     -moz-transition: all 2s ease-in-out;
     -o-transition: all 2s ease-in-out;
     transition: all 0.2s ease-in-out;
-  }
+}
   
-  input:focus{
+input:focus{
     outline: none;
     box-shadow: 3px 3px 10px #333;
     background: rgba(3,3,3,.18);
-  }
+}
   
 ::-webkit-input-placeholder {
      color: #ddd;  }
