@@ -174,7 +174,7 @@ html {
     left: 20px;
   }
   
-  #forgotten{
+#forgotten{
     position: absolute;
     font-size: 12px;
     font-family: 'Hind', sans-serif;
@@ -186,11 +186,11 @@ html {
     -moz-transition: all 2s ease-in-out;
     -o-transition: all 2s ease-in-out;
     transition: all 0.2s ease-in-out;
-  }
+}
   
-  #forgotten:hover{
+#forgotten:hover{
     color: rgba(255,255,255,.6);
-  }
+}
   
 #forgotten-container{
     position: absolute;
@@ -205,7 +205,7 @@ html {
     background: rgba(3,3,3,0.25);
     box-shadow: 1px 1px 50px #000;
     display: none;
-  }
+}
   
 .orange-btn{
     background: rgba(87,198,255,.5);
