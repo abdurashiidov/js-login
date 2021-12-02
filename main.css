@@ -45,9 +45,9 @@ html {
     background: rgba(3,3,3,0.25);
     box-shadow: 1px 1px 50px #000;
     display: none;
-  }
+}
   
-  .close-btn{
+.close-btn{
     position: absolute;
     cursor: pointer;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -63,11 +63,11 @@ html {
     -moz-transition: all 2s ease-in-out;
     -o-transition: all 2s ease-in-out;
     transition: all 0.2s ease-in-out;
-  }
+}
   
-  .close-btn:hover{
+.close-btn:hover{
     opacity: .5;
-  }
+}
   
 h1{
     font-family: "Open Sans Condensed", "Arial" sans-serif;
