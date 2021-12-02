@@ -6,47 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
+    
 
-    <div id="login-button">
-        <img src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png">
-        </img>
-    </div>
-    <div id="container">
-        <h1>Log In</h1>
-        <span class="close-btn">
-          <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
-        </span>
+
+
+    <div class="login-page">
+        <div class="form">
+          <form class="register-form">
+            <input type="text" placeholder="name"/>
+            <input type="password" placeholder="password"/>
+            <input type="text" placeholder="email address"/>
+            <button>create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
+          </form>
+          <form class="login-form">
+            <input type="text" placeholder="username"/>
+            <input type="password" placeholder="password"/>
+            <button>login</button>
+            <p class="message">Not registered? <a href="#">Create an account</a></p>
+          </form>
+        </div>
+      </div>
+
+
       
-        <form>
-          <input type="email" name="email" placeholder="E-mail">
-          <input type="password" name="pass" placeholder="Password">
-          <a href="#">Log in</a>
-          <div id="remember-container">
-            <input type="checkbox" id="checkbox-2-1" class="checkbox" checked="checked"/>
-            <span id="remember">Remember me</span>
-            <span id="forgotten">Forgotten password</span>
-          </div>
-      </form>
-    </div>
-      
-    <div id="forgotten-container">
-        <h1>Forgotten</h1>
-        <span class="close-btn">
-          <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
-        </span>
-      
-        <form>
-          <input type="email" name="email" placeholder="E-mail">
-          <a href="#" class="orange-btn">Get new password</a>
-      </form>
-    </div>
-
-
-
-   
-
     <script src="./main.js"></script>
 </body>
 </html>
