@@ -13,5 +13,3 @@ function signup(){
     }
 }
 signup()
-
-localStorage.clear()
