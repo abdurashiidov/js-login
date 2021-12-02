@@ -69,19 +69,17 @@ html {
     opacity: .5;
   }
   
-  /* Heading */
-  h1{
-    font-family: 'Open Sans Condensed', sans-serif;
+h1{
+    font-family: "Open Sans Condensed", "Arial" sans-serif;
     position: relative;
     margin-top: 0px;
     text-align: center;
     font-size: 40px;
     color: #ddd;
     text-shadow: 3px 3px 10px #000;
-  }
+}
   
-  /* Inputs */
-  a,
+a,
 input{
     font-family: 'Open Sans Condensed', sans-serif;
     text-decoration: none;
