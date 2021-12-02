@@ -117,24 +117,23 @@ html {
   :-ms-input-placeholder {  
      color: #333;  }
   
-  /* Link */
-  a{
+a{
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
     padding: 4px 8px;
     background: rgba(107,255,3,0.3);
-  }
+}
   
-  a:hover{
+a:hover{
     opacity: 0.7;
-  }
+}
   
-  #remember-container{
+#remember-container{
     position: relative;
     margin: -5px 20px;
-  }
+}
   
-  .checkbox {
+.checkbox {
     position: relative;
     cursor: pointer;
       -webkit-appearance: none;
